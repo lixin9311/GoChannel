@@ -1,3 +1,3 @@
 # GoChannel
 
-A description of this package.
+Golang like channel implementation in swift.

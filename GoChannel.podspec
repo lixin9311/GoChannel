@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.name             = 'GoChannel'
     s.version          = '0.1.0'
     s.summary          = 'Golang like channel in swift.'
-  
+    s.swift_versions   = '5'
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/lixin9311/GoChannel.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-    s.platforms = { :ios => "8.0", :osx => "10.7", :watchos => "2.0", :tvos => "9.0" }
-    s.osx.deployment_target = "10.10"
+    s.platforms = { :ios => "13.0", :osx => "10.15", :watchos => "6.0", :tvos => "13.0" }
+    s.osx.deployment_target = "12.3"
   
     s.source_files = 'Sources/GoChannel/**/*'
   
